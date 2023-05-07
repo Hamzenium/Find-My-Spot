@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FindMySpot</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        $.getJSON("http://localhost:5000/detect_vehicles", function(data) {
+          $('#num_vehicles').text(data.num_vehicles);
+        });
+      });
+    </script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">FindMySpot</a>
+    </nav>
+    
+    <!-- Main content -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Server Admin Access</h1>
+          <p>Number of vehicles detected submitted: 13 <span id="num_vehicles"></span></p>
+          <p>Number of vacant spots detected submitted: 3<span id="num_vehicles"></span></p>
+          <p> <span id="num_vehicles"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript to update number of vehicles -->
+  </body>
+</html>
