@@ -3,12 +3,12 @@
 
 ![IMG_4303](https://github.com/user-attachments/assets/e202e0bd-9922-433c-9ec0-c4fa716dc6d8)
 
-![3e334a7a-4e8b-435d-8206-8746cd5d243d](https://github.com/user-attachments/assets/95686c49-ced1-43a4-b5dc-012da694dc51)
+<img width="330" alt="Screenshot 2025-01-22 at 5 49 47 PM" src="https://github.com/user-attachments/assets/af9ac53f-d8d1-40c1-8ce2-2f87ba91d0dc" />
+
 
 
 ## Overview
 **Find My Spot** is a computer vision and IoT-based application designed to help users locate the nearest parking space.  This project was developed as an MVP during a hackathon, where our team leveraged advanced computer vision technology and IoT solutions to create an innovative system.
-
 We are proud to share a photo of our application in action at York University. Using computer vision technology, our app analyzed vacant parking lots and informed users of available parking spots in real-time. Despite numerous challenges faced during the development process, we are thrilled with the outcome and its potential to improve people's lives.
 
 
@@ -146,9 +146,4 @@ yolov5s.pt                    # Pre-trained YOLOv5s model
   - Integrate real-time video feed for license plate detection.
   - Enhance GUI for batch processing of images.
   - Integrate map functionality to guide users to parking spaces.
-
----
-
-## Acknowledgements
-We faced significant challenges during the development process, from optimizing the ESP32 camera stream for real-time performance to integrating YOLOv5 for license plate detection. However, through perseverance and teamwork, we successfully delivered an MVP that showcases the potential of IoT and computer vision to solve real-world problems.
 
